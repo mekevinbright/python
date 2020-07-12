@@ -1,0 +1,27 @@
+num = input("pls enter a number: ")
+
+b, c, d, e = len(num), list(num), 0, {"1","2","3","4","5","6","7","8","9","0"}
+
+fark = set(c)-e
+
+while not fark:
+
+    for i in c:
+
+        d += int(i)**b
+
+    if int(num) == d:
+
+        print(f"{num} is a Armstrong Number")
+
+        break
+
+    else:
+
+        print(f"{num} is NOT a Armstrong Number")
+
+        break
+
+else:
+
+    print("It is an invalid entry. Don't use non-numeric, float, or negative values!")
