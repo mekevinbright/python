@@ -1,1 +1,2 @@
 newfile first change 
+edit newline
